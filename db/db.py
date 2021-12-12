@@ -4,9 +4,9 @@ class Database:
     def __init__(self):
       self.connection = pymysql.connect(
           host='localhost',
-          user='id18110720_admin',
-          password= 'Proyect12345.',
-          db='id18110720_orange_store'
+          user='root',
+          password= '',
+          db='orange_store'
       )   
 
     
